@@ -7,65 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A30CA4FA2297E9340061E248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA4F92297E9340061E248 /* AppDelegate.swift */; };
-		A30CA4FC2297E9340061E248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA4FB2297E9340061E248 /* ViewController.swift */; };
-		A30CA4FF2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A30CA4FD2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodeld */; };
-		A30CA5012297E9350061E248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30CA5002297E9350061E248 /* Assets.xcassets */; };
-		A30CA5042297E9350061E248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30CA5022297E9350061E248 /* Main.storyboard */; };
-		A30CA5102297E9350061E248 /* MTG_Pocket_JudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA50F2297E9350061E248 /* MTG_Pocket_JudgeTests.swift */; };
-		A30CA51B2297E9350061E248 /* MTG_Pocket_JudgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA51A2297E9350061E248 /* MTG_Pocket_JudgeUITests.swift */; };
+		A30CA5352297F6060061E248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA5342297F6060061E248 /* AppDelegate.swift */; };
+		A30CA5372297F6060061E248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA5362297F6060061E248 /* ViewController.swift */; };
+		A30CA53A2297F6060061E248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30CA5382297F6060061E248 /* Main.storyboard */; };
+		A30CA53D2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A30CA53B2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodeld */; };
+		A30CA53F2297F6080061E248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30CA53E2297F6080061E248 /* Assets.xcassets */; };
+		A30CA5422297F6080061E248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30CA5402297F6080061E248 /* LaunchScreen.storyboard */; };
+		A30CA54D2297F6090061E248 /* MTG_Pocket_JudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA54C2297F6090061E248 /* MTG_Pocket_JudgeTests.swift */; };
+		A30CA5582297F6090061E248 /* MTG_Pocket_JudgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA5572297F6090061E248 /* MTG_Pocket_JudgeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A30CA50C2297E9350061E248 /* PBXContainerItemProxy */ = {
+		A30CA5492297F6080061E248 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A30CA4EE2297E9340061E248 /* Project object */;
+			containerPortal = A30CA5292297F6060061E248 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A30CA4F52297E9340061E248;
+			remoteGlobalIDString = A30CA5302297F6060061E248;
 			remoteInfo = MTG_Pocket_Judge;
 		};
-		A30CA5172297E9350061E248 /* PBXContainerItemProxy */ = {
+		A30CA5542297F6090061E248 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A30CA4EE2297E9340061E248 /* Project object */;
+			containerPortal = A30CA5292297F6060061E248 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A30CA4F52297E9340061E248;
+			remoteGlobalIDString = A30CA5302297F6060061E248;
 			remoteInfo = MTG_Pocket_Judge;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A30CA4F62297E9340061E248 /* MTG_Pocket_Judge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTG_Pocket_Judge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30CA4F92297E9340061E248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A30CA4FB2297E9340061E248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A30CA4FE2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTG_Pocket_Judge.xcdatamodel; sourceTree = "<group>"; };
-		A30CA5002297E9350061E248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A30CA5032297E9350061E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A30CA5052297E9350061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A30CA5062297E9350061E248 /* MTG_Pocket_Judge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MTG_Pocket_Judge.entitlements; sourceTree = "<group>"; };
-		A30CA50B2297E9350061E248 /* MTG_Pocket_JudgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_Pocket_JudgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30CA50F2297E9350061E248 /* MTG_Pocket_JudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_Pocket_JudgeTests.swift; sourceTree = "<group>"; };
-		A30CA5112297E9350061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A30CA5162297E9350061E248 /* MTG_Pocket_JudgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_Pocket_JudgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30CA51A2297E9350061E248 /* MTG_Pocket_JudgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_Pocket_JudgeUITests.swift; sourceTree = "<group>"; };
-		A30CA51C2297E9350061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30CA5312297F6060061E248 /* MTG_Pocket_Judge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTG_Pocket_Judge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30CA5342297F6060061E248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A30CA5362297F6060061E248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A30CA5392297F6060061E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A30CA53C2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTG_Pocket_Judge.xcdatamodel; sourceTree = "<group>"; };
+		A30CA53E2297F6080061E248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A30CA5412297F6080061E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A30CA5432297F6080061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30CA5482297F6080061E248 /* MTG_Pocket_JudgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_Pocket_JudgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30CA54C2297F6090061E248 /* MTG_Pocket_JudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_Pocket_JudgeTests.swift; sourceTree = "<group>"; };
+		A30CA54E2297F6090061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30CA5532297F6090061E248 /* MTG_Pocket_JudgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_Pocket_JudgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30CA5572297F6090061E248 /* MTG_Pocket_JudgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_Pocket_JudgeUITests.swift; sourceTree = "<group>"; };
+		A30CA5592297F6090061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A30CA4F32297E9340061E248 /* Frameworks */ = {
+		A30CA52E2297F6060061E248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30CA5082297E9350061E248 /* Frameworks */ = {
+		A30CA5452297F6080061E248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30CA5132297E9350061E248 /* Frameworks */ = {
+		A30CA5502297F6090061E248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A30CA4ED2297E9340061E248 = {
+		A30CA5282297F6060061E248 = {
 			isa = PBXGroup;
 			children = (
-				A30CA4F82297E9340061E248 /* MTG_Pocket_Judge */,
-				A30CA50E2297E9350061E248 /* MTG_Pocket_JudgeTests */,
-				A30CA5192297E9350061E248 /* MTG_Pocket_JudgeUITests */,
-				A30CA4F72297E9340061E248 /* Products */,
+				A30CA5332297F6060061E248 /* MTG_Pocket_Judge */,
+				A30CA54B2297F6080061E248 /* MTG_Pocket_JudgeTests */,
+				A30CA5562297F6090061E248 /* MTG_Pocket_JudgeUITests */,
+				A30CA5322297F6060061E248 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A30CA4F72297E9340061E248 /* Products */ = {
+		A30CA5322297F6060061E248 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A30CA4F62297E9340061E248 /* MTG_Pocket_Judge.app */,
-				A30CA50B2297E9350061E248 /* MTG_Pocket_JudgeTests.xctest */,
-				A30CA5162297E9350061E248 /* MTG_Pocket_JudgeUITests.xctest */,
+				A30CA5312297F6060061E248 /* MTG_Pocket_Judge.app */,
+				A30CA5482297F6080061E248 /* MTG_Pocket_JudgeTests.xctest */,
+				A30CA5532297F6090061E248 /* MTG_Pocket_JudgeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A30CA4F82297E9340061E248 /* MTG_Pocket_Judge */ = {
+		A30CA5332297F6060061E248 /* MTG_Pocket_Judge */ = {
 			isa = PBXGroup;
 			children = (
-				A30CA4F92297E9340061E248 /* AppDelegate.swift */,
-				A30CA4FB2297E9340061E248 /* ViewController.swift */,
-				A30CA5002297E9350061E248 /* Assets.xcassets */,
-				A30CA5022297E9350061E248 /* Main.storyboard */,
-				A30CA5052297E9350061E248 /* Info.plist */,
-				A30CA5062297E9350061E248 /* MTG_Pocket_Judge.entitlements */,
-				A30CA4FD2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodeld */,
+				A30CA5342297F6060061E248 /* AppDelegate.swift */,
+				A30CA5362297F6060061E248 /* ViewController.swift */,
+				A30CA5382297F6060061E248 /* Main.storyboard */,
+				A30CA53E2297F6080061E248 /* Assets.xcassets */,
+				A30CA5402297F6080061E248 /* LaunchScreen.storyboard */,
+				A30CA5432297F6080061E248 /* Info.plist */,
+				A30CA53B2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodeld */,
 			);
 			path = MTG_Pocket_Judge;
 			sourceTree = "<group>";
 		};
-		A30CA50E2297E9350061E248 /* MTG_Pocket_JudgeTests */ = {
+		A30CA54B2297F6080061E248 /* MTG_Pocket_JudgeTests */ = {
 			isa = PBXGroup;
 			children = (
-				A30CA50F2297E9350061E248 /* MTG_Pocket_JudgeTests.swift */,
-				A30CA5112297E9350061E248 /* Info.plist */,
+				A30CA54C2297F6090061E248 /* MTG_Pocket_JudgeTests.swift */,
+				A30CA54E2297F6090061E248 /* Info.plist */,
 			);
 			path = MTG_Pocket_JudgeTests;
 			sourceTree = "<group>";
 		};
-		A30CA5192297E9350061E248 /* MTG_Pocket_JudgeUITests */ = {
+		A30CA5562297F6090061E248 /* MTG_Pocket_JudgeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A30CA51A2297E9350061E248 /* MTG_Pocket_JudgeUITests.swift */,
-				A30CA51C2297E9350061E248 /* Info.plist */,
+				A30CA5572297F6090061E248 /* MTG_Pocket_JudgeUITests.swift */,
+				A30CA5592297F6090061E248 /* Info.plist */,
 			);
 			path = MTG_Pocket_JudgeUITests;
 			sourceTree = "<group>";
@@ -130,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A30CA4F52297E9340061E248 /* MTG_Pocket_Judge */ = {
+		A30CA5302297F6060061E248 /* MTG_Pocket_Judge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30CA51F2297E9350061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_Judge" */;
+			buildConfigurationList = A30CA55C2297F60A0061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_Judge" */;
 			buildPhases = (
-				A30CA4F22297E9340061E248 /* Sources */,
-				A30CA4F32297E9340061E248 /* Frameworks */,
-				A30CA4F42297E9340061E248 /* Resources */,
+				A30CA52D2297F6060061E248 /* Sources */,
+				A30CA52E2297F6060061E248 /* Frameworks */,
+				A30CA52F2297F6060061E248 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +145,69 @@
 			);
 			name = MTG_Pocket_Judge;
 			productName = MTG_Pocket_Judge;
-			productReference = A30CA4F62297E9340061E248 /* MTG_Pocket_Judge.app */;
+			productReference = A30CA5312297F6060061E248 /* MTG_Pocket_Judge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A30CA50A2297E9350061E248 /* MTG_Pocket_JudgeTests */ = {
+		A30CA5472297F6080061E248 /* MTG_Pocket_JudgeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30CA5222297E9350061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeTests" */;
+			buildConfigurationList = A30CA55F2297F60A0061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeTests" */;
 			buildPhases = (
-				A30CA5072297E9350061E248 /* Sources */,
-				A30CA5082297E9350061E248 /* Frameworks */,
-				A30CA5092297E9350061E248 /* Resources */,
+				A30CA5442297F6080061E248 /* Sources */,
+				A30CA5452297F6080061E248 /* Frameworks */,
+				A30CA5462297F6080061E248 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A30CA50D2297E9350061E248 /* PBXTargetDependency */,
+				A30CA54A2297F6080061E248 /* PBXTargetDependency */,
 			);
 			name = MTG_Pocket_JudgeTests;
 			productName = MTG_Pocket_JudgeTests;
-			productReference = A30CA50B2297E9350061E248 /* MTG_Pocket_JudgeTests.xctest */;
+			productReference = A30CA5482297F6080061E248 /* MTG_Pocket_JudgeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A30CA5152297E9350061E248 /* MTG_Pocket_JudgeUITests */ = {
+		A30CA5522297F6090061E248 /* MTG_Pocket_JudgeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30CA5252297E9350061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeUITests" */;
+			buildConfigurationList = A30CA5622297F60A0061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeUITests" */;
 			buildPhases = (
-				A30CA5122297E9350061E248 /* Sources */,
-				A30CA5132297E9350061E248 /* Frameworks */,
-				A30CA5142297E9350061E248 /* Resources */,
+				A30CA54F2297F6090061E248 /* Sources */,
+				A30CA5502297F6090061E248 /* Frameworks */,
+				A30CA5512297F6090061E248 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A30CA5182297E9350061E248 /* PBXTargetDependency */,
+				A30CA5552297F6090061E248 /* PBXTargetDependency */,
 			);
 			name = MTG_Pocket_JudgeUITests;
 			productName = MTG_Pocket_JudgeUITests;
-			productReference = A30CA5162297E9350061E248 /* MTG_Pocket_JudgeUITests.xctest */;
+			productReference = A30CA5532297F6090061E248 /* MTG_Pocket_JudgeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A30CA4EE2297E9340061E248 /* Project object */ = {
+		A30CA5292297F6060061E248 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Adrian Ledwinka / PBS2H17A";
 				TargetAttributes = {
-					A30CA4F52297E9340061E248 = {
+					A30CA5302297F6060061E248 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					A30CA50A2297E9350061E248 = {
+					A30CA5472297F6080061E248 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = A30CA4F52297E9340061E248;
+						TestTargetID = A30CA5302297F6060061E248;
 					};
-					A30CA5152297E9350061E248 = {
+					A30CA5522297F6090061E248 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = A30CA4F52297E9340061E248;
+						TestTargetID = A30CA5302297F6060061E248;
 					};
 				};
 			};
-			buildConfigurationList = A30CA4F12297E9340061E248 /* Build configuration list for PBXProject "MTG_Pocket_Judge" */;
+			buildConfigurationList = A30CA52C2297F6060061E248 /* Build configuration list for PBXProject "MTG_Pocket_Judge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A30CA4ED2297E9340061E248;
-			productRefGroup = A30CA4F72297E9340061E248 /* Products */;
+			mainGroup = A30CA5282297F6060061E248;
+			productRefGroup = A30CA5322297F6060061E248 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A30CA4F52297E9340061E248 /* MTG_Pocket_Judge */,
-				A30CA50A2297E9350061E248 /* MTG_Pocket_JudgeTests */,
-				A30CA5152297E9350061E248 /* MTG_Pocket_JudgeUITests */,
+				A30CA5302297F6060061E248 /* MTG_Pocket_Judge */,
+				A30CA5472297F6080061E248 /* MTG_Pocket_JudgeTests */,
+				A30CA5522297F6090061E248 /* MTG_Pocket_JudgeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A30CA4F42297E9340061E248 /* Resources */ = {
+		A30CA52F2297F6060061E248 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30CA5012297E9350061E248 /* Assets.xcassets in Resources */,
-				A30CA5042297E9350061E248 /* Main.storyboard in Resources */,
+				A30CA5422297F6080061E248 /* LaunchScreen.storyboard in Resources */,
+				A30CA53F2297F6080061E248 /* Assets.xcassets in Resources */,
+				A30CA53A2297F6060061E248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30CA5092297E9350061E248 /* Resources */ = {
+		A30CA5462297F6080061E248 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30CA5142297E9350061E248 /* Resources */ = {
+		A30CA5512297F6090061E248 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,60 +255,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A30CA4F22297E9340061E248 /* Sources */ = {
+		A30CA52D2297F6060061E248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30CA4FF2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodeld in Sources */,
-				A30CA4FC2297E9340061E248 /* ViewController.swift in Sources */,
-				A30CA4FA2297E9340061E248 /* AppDelegate.swift in Sources */,
+				A30CA53D2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodeld in Sources */,
+				A30CA5372297F6060061E248 /* ViewController.swift in Sources */,
+				A30CA5352297F6060061E248 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30CA5072297E9350061E248 /* Sources */ = {
+		A30CA5442297F6080061E248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30CA5102297E9350061E248 /* MTG_Pocket_JudgeTests.swift in Sources */,
+				A30CA54D2297F6090061E248 /* MTG_Pocket_JudgeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30CA5122297E9350061E248 /* Sources */ = {
+		A30CA54F2297F6090061E248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30CA51B2297E9350061E248 /* MTG_Pocket_JudgeUITests.swift in Sources */,
+				A30CA5582297F6090061E248 /* MTG_Pocket_JudgeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A30CA50D2297E9350061E248 /* PBXTargetDependency */ = {
+		A30CA54A2297F6080061E248 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A30CA4F52297E9340061E248 /* MTG_Pocket_Judge */;
-			targetProxy = A30CA50C2297E9350061E248 /* PBXContainerItemProxy */;
+			target = A30CA5302297F6060061E248 /* MTG_Pocket_Judge */;
+			targetProxy = A30CA5492297F6080061E248 /* PBXContainerItemProxy */;
 		};
-		A30CA5182297E9350061E248 /* PBXTargetDependency */ = {
+		A30CA5552297F6090061E248 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A30CA4F52297E9340061E248 /* MTG_Pocket_Judge */;
-			targetProxy = A30CA5172297E9350061E248 /* PBXContainerItemProxy */;
+			target = A30CA5302297F6060061E248 /* MTG_Pocket_Judge */;
+			targetProxy = A30CA5542297F6090061E248 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A30CA5022297E9350061E248 /* Main.storyboard */ = {
+		A30CA5382297F6060061E248 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A30CA5032297E9350061E248 /* Base */,
+				A30CA5392297F6060061E248 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A30CA5402297F6080061E248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30CA5412297F6080061E248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A30CA51D2297E9350061E248 /* Debug */ = {
+		A30CA55A2297F60A0061E248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,7 +348,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -357,17 +367,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A30CA51E2297E9350061E248 /* Release */ = {
+		A30CA55B2297F60A0061E248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -399,7 +409,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -412,125 +422,124 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A30CA5202297E9350061E248 /* Debug */ = {
+		A30CA55D2297F60A0061E248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MTG_Pocket_Judge/MTG_Pocket_Judge.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MTG_Pocket_Judge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bib.MTG-Pocket-Judge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A30CA5212297E9350061E248 /* Release */ = {
+		A30CA55E2297F60A0061E248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MTG_Pocket_Judge/MTG_Pocket_Judge.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MTG_Pocket_Judge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bib.MTG-Pocket-Judge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A30CA5232297E9350061E248 /* Debug */ = {
+		A30CA5602297F60A0061E248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MTG_Pocket_JudgeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bib.MTG-Pocket-JudgeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG_Pocket_Judge.app/Contents/MacOS/MTG_Pocket_Judge";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG_Pocket_Judge.app/MTG_Pocket_Judge";
 			};
 			name = Debug;
 		};
-		A30CA5242297E9350061E248 /* Release */ = {
+		A30CA5612297F60A0061E248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MTG_Pocket_JudgeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bib.MTG-Pocket-JudgeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG_Pocket_Judge.app/Contents/MacOS/MTG_Pocket_Judge";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG_Pocket_Judge.app/MTG_Pocket_Judge";
 			};
 			name = Release;
 		};
-		A30CA5262297E9350061E248 /* Debug */ = {
+		A30CA5632297F60A0061E248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MTG_Pocket_JudgeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bib.MTG-Pocket-JudgeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MTG_Pocket_Judge;
 			};
 			name = Debug;
 		};
-		A30CA5272297E9350061E248 /* Release */ = {
+		A30CA5642297F60A0061E248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MTG_Pocket_JudgeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bib.MTG-Pocket-JudgeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MTG_Pocket_Judge;
 			};
 			name = Release;
@@ -538,38 +547,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A30CA4F12297E9340061E248 /* Build configuration list for PBXProject "MTG_Pocket_Judge" */ = {
+		A30CA52C2297F6060061E248 /* Build configuration list for PBXProject "MTG_Pocket_Judge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A30CA51D2297E9350061E248 /* Debug */,
-				A30CA51E2297E9350061E248 /* Release */,
+				A30CA55A2297F60A0061E248 /* Debug */,
+				A30CA55B2297F60A0061E248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30CA51F2297E9350061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_Judge" */ = {
+		A30CA55C2297F60A0061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_Judge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A30CA5202297E9350061E248 /* Debug */,
-				A30CA5212297E9350061E248 /* Release */,
+				A30CA55D2297F60A0061E248 /* Debug */,
+				A30CA55E2297F60A0061E248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30CA5222297E9350061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeTests" */ = {
+		A30CA55F2297F60A0061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A30CA5232297E9350061E248 /* Debug */,
-				A30CA5242297E9350061E248 /* Release */,
+				A30CA5602297F60A0061E248 /* Debug */,
+				A30CA5612297F60A0061E248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30CA5252297E9350061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeUITests" */ = {
+		A30CA5622297F60A0061E248 /* Build configuration list for PBXNativeTarget "MTG_Pocket_JudgeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A30CA5262297E9350061E248 /* Debug */,
-				A30CA5272297E9350061E248 /* Release */,
+				A30CA5632297F60A0061E248 /* Debug */,
+				A30CA5642297F60A0061E248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -577,17 +586,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A30CA4FD2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodeld */ = {
+		A30CA53B2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A30CA4FE2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodel */,
+				A30CA53C2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodel */,
 			);
-			currentVersion = A30CA4FE2297E9340061E248 /* MTG_Pocket_Judge.xcdatamodel */;
+			currentVersion = A30CA53C2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodel */;
 			path = MTG_Pocket_Judge.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A30CA4EE2297E9340061E248 /* Project object */;
+	rootObject = A30CA5292297F6060061E248 /* Project object */;
 }
