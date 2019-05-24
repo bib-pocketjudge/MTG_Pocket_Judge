@@ -15,6 +15,8 @@
 		A30CA5422297F6080061E248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30CA5402297F6080061E248 /* LaunchScreen.storyboard */; };
 		A30CA54D2297F6090061E248 /* MTG_Pocket_JudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA54C2297F6090061E248 /* MTG_Pocket_JudgeTests.swift */; };
 		A30CA5582297F6090061E248 /* MTG_Pocket_JudgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA5572297F6090061E248 /* MTG_Pocket_JudgeUITests.swift */; };
+		A30CA5662297FC590061E248 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA5652297FC590061E248 /* Card.swift */; };
+		A30CA5682297FC6B0061E248 /* Rulings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA5672297FC6B0061E248 /* Rulings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A30CA5532297F6090061E248 /* MTG_Pocket_JudgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_Pocket_JudgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30CA5572297F6090061E248 /* MTG_Pocket_JudgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_Pocket_JudgeUITests.swift; sourceTree = "<group>"; };
 		A30CA5592297F6090061E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30CA5652297FC590061E248 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A30CA5672297FC6B0061E248 /* Rulings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rulings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		A30CA5282297F6060061E248 = {
 			isa = PBXGroup;
 			children = (
+				A30CA5672297FC6B0061E248 /* Rulings.swift */,
+				A30CA5652297FC590061E248 /* Card.swift */,
 				A30CA5332297F6060061E248 /* MTG_Pocket_Judge */,
 				A30CA54B2297F6080061E248 /* MTG_Pocket_JudgeTests */,
 				A30CA5562297F6090061E248 /* MTG_Pocket_JudgeUITests */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30CA53D2297F6070061E248 /* MTG_Pocket_Judge.xcdatamodeld in Sources */,
+				A30CA5682297FC6B0061E248 /* Rulings.swift in Sources */,
 				A30CA5372297F6060061E248 /* ViewController.swift in Sources */,
 				A30CA5352297F6060061E248 /* AppDelegate.swift in Sources */,
+				A30CA5662297FC590061E248 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
