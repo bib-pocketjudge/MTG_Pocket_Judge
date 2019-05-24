@@ -39,7 +39,8 @@ class Card : Codable
     let relatedUris: RelatedUris
     let purchaseUris: PurchaseUris
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case object, id
         case oracleID = "oracle_id"
         case multiverseIDS = "multiverse_ids"
@@ -81,7 +82,8 @@ class Card : Codable
         case purchaseUris = "purchase_uris"
     }
     
-    init(object: String, id: String, oracleID: String, multiverseIDS: [Int], mtgoID: Int, mtgoFoilID: Int, tcgplayerID: Int, name: String, lang: String, releasedAt: String, uri: String, scryfallURI: String, layout: String, highresImage: Bool, imageUris: ImageUris, manaCost: String, cmc: Int, typeLine: String, oracleText: String, colors: [String], colorIdentity: [String], legalities: Legalities, games: [String], reserved: Bool, foil: Bool, nonfoil: Bool, oversized: Bool, promo: Bool, reprint: Bool, welcomeSet: String, setName: String, setURI: String, setSearchURI: String, scryfallSetURI: String, rulingsURI: String, printsSearchURI: String, collectorNumber: String, digital: Bool, rarity: String, watermark: String, illustrationID: String, artist: String, borderColor: String, frame: String, fullArt: Bool, storySpotlight: Bool, edhrecRank: Int, prices: Prices, relatedUris: RelatedUris, purchaseUris: PurchaseUris) {
+    init(object: String, id: String, oracleID: String, multiverseIDS: [Int], mtgoID: Int, mtgoFoilID: Int, tcgplayerID: Int, name: String, lang: String, releasedAt: String, uri: String, scryfallURI: String, layout: String, highresImage: Bool, imageUris: ImageUris, manaCost: String, cmc: Int, typeLine: String, oracleText: String, colors: [String], colorIdentity: [String], legalities: Legalities, games: [String], reserved: Bool, foil: Bool, nonfoil: Bool, oversized: Bool, promo: Bool, reprint: Bool, welcomeSet: String, setName: String, setURI: String, setSearchURI: String, scryfallSetURI: String, rulingsURI: String, printsSearchURI: String, collectorNumber: String, digital: Bool, rarity: String, watermark: String, illustrationID: String, artist: String, borderColor: String, frame: String, fullArt: Bool, storySpotlight: Bool, edhrecRank: Int, prices: Prices, relatedUris: RelatedUris, purchaseUris: PurchaseUris)
+    {
         self.object = object
         self.id = id
         self.oracleID = oracleID
@@ -136,18 +138,27 @@ class Card : Codable
 }
 
 // MARK: - ImageUris
-class ImageUris: Codable {
-    let small, normal, large: String
+class ImageUris: Codable
+{
+    let small: String
+    let normal: String
+    let large: String
     let png: String
-    let artCrop, borderCrop: String
+    let artCrop: String
+    let borderCrop: String
     
-    enum CodingKeys: String, CodingKey {
-        case small, normal, large, png
+    enum CodingKeys: String, CodingKey
+    {
+        case small
+        case normal
+        case large
+        case png
         case artCrop = "art_crop"
         case borderCrop = "border_crop"
     }
     
-    init(small: String, normal: String, large: String, png: String, artCrop: String, borderCrop: String) {
+    init(small: String, normal: String, large: String, png: String, artCrop: String, borderCrop: String)
+    {
         self.small = small
         self.normal = normal
         self.large = large
@@ -158,12 +169,22 @@ class ImageUris: Codable {
 }
 
 // MARK: - Legalities
-class Legalities: Codable {
-    let standard, future, frontier, modern: String
-    let legacy, pauper, vintage, penny: String
-    let commander, duel, oldschool: String
+class Legalities: Codable
+{
+    let standard: String
+    let future: String
+    let frontier: String
+    let modern: String
+    let legacy: String
+    let pauper: String
+    let vintage: String
+    let penny: String
+    let commander: String
+    let duel: String
+    let oldschool: String
     
-    init(standard: String, future: String, frontier: String, modern: String, legacy: String, pauper: String, vintage: String, penny: String, commander: String, duel: String, oldschool: String) {
+    init(standard: String, future: String, frontier: String, modern: String, legacy: String, pauper: String, vintage: String, penny: String, commander: String, duel: String, oldschool: String)
+    {
         self.standard = standard
         self.future = future
         self.frontier = frontier
@@ -179,16 +200,22 @@ class Legalities: Codable {
 }
 
 // MARK: - Prices
-class Prices: Codable {
-    let usd, usdFoil, eur, tix: String
+class Prices: Codable
+{
+    let usd: String
+    let usdFoil: String
+    let eur: String
+    let tix: String
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case usd
         case usdFoil = "usd_foil"
         case eur, tix
     }
     
-    init(usd: String, usdFoil: String, eur: String, tix: String) {
+    init(usd: String, usdFoil: String, eur: String, tix: String)
+    {
         self.usd = usd
         self.usdFoil = usdFoil
         self.eur = eur
@@ -197,10 +224,14 @@ class Prices: Codable {
 }
 
 // MARK: - PurchaseUris
-class PurchaseUris: Codable {
-    let tcgplayer, cardmarket, cardhoarder: String
+class PurchaseUris: Codable
+{
+    let tcgplayer: String
+    let cardmarket: String
+    let cardhoarder: String
     
-    init(tcgplayer: String, cardmarket: String, cardhoarder: String) {
+    init(tcgplayer: String, cardmarket: String, cardhoarder: String)
+    {
         self.tcgplayer = tcgplayer
         self.cardmarket = cardmarket
         self.cardhoarder = cardhoarder
@@ -208,18 +239,21 @@ class PurchaseUris: Codable {
 }
 
 // MARK: - RelatedUris
-class RelatedUris: Codable {
+class RelatedUris: Codable
+{
     let gatherer: String
     let tcgplayerDecks: String
     let edhrec, mtgtop8: String
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case gatherer
         case tcgplayerDecks = "tcgplayer_decks"
         case edhrec, mtgtop8
     }
     
-    init(gatherer: String, tcgplayerDecks: String, edhrec: String, mtgtop8: String) {
+    init(gatherer: String, tcgplayerDecks: String, edhrec: String, mtgtop8: String)
+    {
         self.gatherer = gatherer
         self.tcgplayerDecks = tcgplayerDecks
         self.edhrec = edhrec

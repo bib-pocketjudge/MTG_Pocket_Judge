@@ -8,18 +8,21 @@
 
 import Foundation
 
-class Rulings: Codable {
+class Rulings: Codable
+{
     let object: String
     let hasMore: Bool
     let data: [Datum]
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case object
         case hasMore = "has_more"
         case data
     }
     
-    init(object: String, hasMore: Bool, data: [Datum]) {
+    init(object: String, hasMore: Bool, data: [Datum])
+    {
         self.object = object
         self.hasMore = hasMore
         self.data = data
@@ -27,11 +30,16 @@ class Rulings: Codable {
 }
 
 // MARK: - Datum
-class Datum: Codable {
-    let object, oracleID, source, publishedAt: String
+class Datum: Codable
+{
+    let object: String
+    let oracleID: String
+    let source: String
+    let publishedAt: String
     let comment: String
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case object
         case oracleID = "oracle_id"
         case source
@@ -39,7 +47,8 @@ class Datum: Codable {
         case comment
     }
     
-    init(object: String, oracleID: String, source: String, publishedAt: String, comment: String) {
+    init(object: String, oracleID: String, source: String, publishedAt: String, comment: String)
+    {
         self.object = object
         self.oracleID = oracleID
         self.source = source
