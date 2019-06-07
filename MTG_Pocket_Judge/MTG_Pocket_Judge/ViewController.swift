@@ -13,15 +13,75 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var test = getCard(searchInput: "doomsday")
+        //This url will be provided by the user via a search input.
+        let jsonTestUrl = "https://api.scryfall.com/cards/named?exact=doomsday"
+        
+        guard let url = URL(string: jsonTestUrl) else { return }
+        
+        URLSession.shared.dataTask(with: url)
+        { (data,response, err) in
+            
+            guard let data = data else { return }
+            
+            do
+            {
+                let card = try JSONDecoder().decode(Card.self, from:data)
+                /*
+                 let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+                 let doomsday = Card(from: json)
+                 print(doomsday)
+                 */
+                print(card.rulingsURI)
+                
+                let rulingsUri = card.rulingsURI as String
+                
+                guard let rulings_uri = URL(string: rulingsUri) else {return}
+                
+                URLSession.shared.dataTask(with: rulings_uri)
+                { (data,response, err) in
+                    
+                    guard let data = data else { return }
+                    
+                    do
+                    {
+                        let rulings = try JSONDecoder().decode(Rulings.self, from:data)
+                        /*
+                         let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+                         let doomsday = Card(from: json)
+                         print(doomsday)
+                         */
+                        print(rulings.data[0].comment)
+                        
+                    }
+                    catch let jsonErr
+                    {
+                        print("Error serializing json:",jsonErr)
+                    }
+                    
+                    }.resume()
+            }
+            catch let jsonErr
+            {
+                print("Error serializing json:",jsonErr)
+            }
+            
+            }.resume()
+        
+        
+        /*
+        let test : Card
+        test = getCard(searchInput: "doomsday")
         
         print(test.name)
-        
+
+        print("end")
+        */
     }
 
-    func getCard(searchInput:String)->Card{
+    /*
+    func getCard(searchInput:String) -> Card {
         
-        var thisCard : Card?
+        var thisCard : Card
         
         print("reached 0")
         
@@ -29,9 +89,9 @@ class ViewController: UIViewController {
         
         print("reached 1")
         
-        guard let url = URL(string: jsonCardSearchUrl) else {print(); return thisCard!}
+        guard let url = URL(string: jsonCardSearchUrl) else {}
         
-        print("reached here?")
+        print(url)
         
         URLSession.shared.dataTask(with: url)
         { (data,response, err) in
@@ -50,12 +110,10 @@ class ViewController: UIViewController {
             {
                 print("Error serializing json:",jsonErr)
             }
-            
         }.resume()
-        
-        return thisCard!
+        return thisCard
     }
-    
+    */
     /*
      
      //This url will be provided by the user via a search input.
