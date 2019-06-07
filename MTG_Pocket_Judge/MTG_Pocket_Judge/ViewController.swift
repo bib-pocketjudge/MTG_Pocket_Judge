@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                  let doomsday = Card(from: json)
                  print(doomsday)
                  */
-                print(card.rulingsURI)
+                print(card.rulingsURI+"\n--\n")
                 
                 let rulingsUri = card.rulingsURI as String
                 
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                          let doomsday = Card(from: json)
                          print(doomsday)
                          */
-                        print(rulings.data[0].comment)
+                        print(rulings.data[0].comment+"\n--\n")
                         
                     }
                     catch let jsonErr
