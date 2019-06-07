@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
+        //This url will be provided by the user via a search input.
         let jsonTestUrl = "https://api.scryfall.com/cards/named?exact=doomsday"
         
         guard let url = URL(string: jsonTestUrl) else { return }
@@ -23,14 +23,42 @@ class ViewController: UIViewController {
             
             guard let data = data else { return }
             
-//            let dataAsString = String(data: data, encoding: .utf8)
-            
- //           print(dataAsString)
-            
             do
             {
+                let card = try JSONDecoder().decode(Card.self, from:data)
+                /*
                 let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-                //let doomsday = Card(json)
+                let doomsday = Card(from: json)
+                print(doomsday)
+                 */
+                print(card.rulingsURI)
+                
+                let rulingsUri = card.rulingsURI as String
+                
+                guard let rulings_uri = URL(string: rulingsUri) else {return}
+                
+                URLSession.shared.dataTask(with: rulings_uri)
+                { (data,response, err) in
+                    
+                    guard let data = data else { return }
+                    
+                    do
+                    {
+                        let rulings = try JSONDecoder().decode(Rulings.self, from:data)
+                        /*
+                         let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+                         let doomsday = Card(from: json)
+                         print(doomsday)
+                         */
+                        print(rulings.data[0].comment)
+                        
+                    }
+                    catch let jsonErr
+                    {
+                        print("Error serializing json:",jsonErr)
+                    }
+                    
+                    }.resume()
             }
             catch let jsonErr
             {
