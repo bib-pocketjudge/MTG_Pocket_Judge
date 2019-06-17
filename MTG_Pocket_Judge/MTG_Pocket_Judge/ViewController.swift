@@ -50,6 +50,7 @@ class ViewController: UIViewController {
                          let doomsday = Card(from: json)
                          print(doomsday)
                          */
+
                         print(rulings.data[0].comment+"\n--\n")
                         
                     }
