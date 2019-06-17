@@ -25,12 +25,14 @@ class ViewController: UIViewController {
             
             do
             {
+                /*Get card information here*/
                 let card = try JSONDecoder().decode(Card.self, from:data)
                 /*
                  let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
                  let doomsday = Card(from: json)
                  print(doomsday)
                  */
+                
                 print(card.rulingsURI+"\n--\n")
                 
                 let rulingsUri = card.rulingsURI as String
@@ -44,12 +46,14 @@ class ViewController: UIViewController {
                     
                     do
                     {
+                        /*Get rulings information here*/
                         let rulings = try JSONDecoder().decode(Rulings.self, from:data)
                         /*
                          let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
                          let doomsday = Card(from: json)
                          print(doomsday)
                          */
+
                         print(rulings.data[0].comment+"\n--\n")
                         
                     }
